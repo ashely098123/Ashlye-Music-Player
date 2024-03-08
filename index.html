@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashley music</title>
+    <link rel="stylesheet" href="/Style/style.css" />
+    <link rel="stylesheet" href="Style/utile.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img width="30" class="invert" src="/img/close.svg" alt="" />
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+         <div class="logo">
+          <a href="/login.html" target="_blank"> <img src="/img/logo.png" alt="" /></a>
+          <span class="a deco-none developer">Ashley Music</span>
+        </div>
+        </div>
+
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="/img/playlist.svg" alt="" />
+            <h2>Your Library</h2>
+          </div>
+
+          <div class="songList">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a href="https://www.facebook.com"><span>Facebook</span></a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com"><span>Instagram</span></a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com"><span>Support</span></a>
+            </div>
+
+            <div>
+              <a href="https://www.facebook.com"><span>Contact</span></a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com"><span>Author</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-grey rounded p-1">
+        <div class="header rounded">
+          <div class="nav">
+            <img class="invert center hamburger" src="/img/ham2.svg" alt="" />
+       
+            <!-- Header With Author Profil -->
+            <div class="">
+              <div class="logo hom">
+                <!-- <a href="/devprofil.html" target="_blank"> <img src="/img/logo.png" alt="" /></a> -->
+               <a href="index.html" target="_blank"> <img class="invert" src="/img/home.svg" alt=""></a>
+                <!-- <span class="text-white">Home</span> -->
+              </div>
+            </div>
+
+          </div>
+          <div class="button">
+            <button class="signupbtn">Sign Up</button>
+            <a href="login.html">
+              <button class="loginbtn shadow">Log in</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="ashlyePlaylist">
+          <h2 class="center">My Albums</h2>
+
+          <div class="cardContainer"></div>
+
+          <div class="playbar shadow">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+
+            <div class="abovebar">
+              <div class="songinfo"></div>
+
+              <div class="songbuttons">
+                <img
+                  width="25"
+                  id="previous"
+                  class="invert curser-pointer"
+                  src="/img/right.svg"
+                  alt=""
+                />
+                <img
+                  width="25"
+                  id="play"
+                  class="invert curser-pointer"
+                  src="/img/play.svg"
+                  alt=""
+                />
+                <img
+                  width="25"
+                  id="next"
+                  class="invert curser-pointer"
+                  src="/img/songleft.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="songtime"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

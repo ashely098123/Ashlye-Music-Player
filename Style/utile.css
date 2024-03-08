@@ -1,0 +1,145 @@
+/* .border{
+    border: 2px solid red;
+    margin: 3px;
+} */
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Edu+TAS+Beginner&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:ital,wght@0,100;1,300&family=Satisfy&family=Tangerine:wght@700&display=swap');
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.bg-black{
+    background: #000;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.g-1{
+    gap: 3px;
+}
+/* #i-1{
+    border-radius: 7px;
+}*/
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #222;
+} 
+
+/* scrollbar-color: #333 #222; */
+
+
+/* Button Style */
+
+.button > *{
+    padding: 0 12px;
+}
+.signupbtn{
+    background-color: rgb(24, 24, 24);
+    color: rgb(156, 148, 148);
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signupbtn:hover{
+    color: white;
+    transition: color 1s ease-in-out ;
+}
+
+.loginbtn{
+    border: none;
+    outline: none;
+    border-radius: 21px;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 13px;
+    width: 79px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: background-color 1s ease-in-out ;
+}
+.loginbtn:hover{
+   background: transparent;
+   color: white;
+
+}
+
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.curser-pointer{
+    cursor: pointer;
+}
+.f-10{
+    font-size: 10px;
+}
+.f-16{
+    font-size: 1rem;
+}
+.center{
+    text-align: center;
+}
+
+
+.developer:hover{
+    color: #bebbbb;
+    transition: color 1s ease-in-out;
+}
+.a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.deco-none{
+    list-style: none;
+}
+
+.round{
+    border-radius: 7px;
+}
+
+/* .shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+.shadow-2{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.transition{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: all box-shadow 1s;
+}
